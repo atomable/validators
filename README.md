@@ -7,7 +7,7 @@
 
 These are the default validators that are offered as part of the atomable Serverless Microservices Framework.
 
-For more information check out https://github.com/atomable/atomable
+For more information check out https://github.com/atomable/atomable.
 
 ## Source code | fork | pull request | issues
 https://github.com/atomable/validators
