@@ -1,0 +1,41 @@
+{
+  "name": "atomable-validators",
+  "version": "1.0.0-alpha.0",
+  "description": "Default parameter validators for atomable's runtime.",
+  "main": "dist/validators.js",
+  "scripts": {
+    "prepublish": "webpack",
+    "pretest": "webpack",
+    "test": "eslint . && mocha --recursive --require babel-register",
+    "lint": "eslint ."
+  },
+  "repository": "https://github.com/atomable/validators.git",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "webpack": "^1.13.3",
+    "eslint": "3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0"
+  },
+  "keywords": [
+    "atomable",
+    "atomable-cli",
+    "atomable-runtime",
+    "validation"
+  ],
+  "author": "atomable authors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atomable/validators/issues"
+  },
+  "homepage": "https://github.com/atomable/validators#readme"
+}
