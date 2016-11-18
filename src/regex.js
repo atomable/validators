@@ -1,7 +1,7 @@
+import { stringNotEmpty } from './string-not-empty';
+
 export const regex = (value, regex) => { // eslint-disable-line
-  if (!value) {
-    throw new Error('value must not be null or empty');
-  }
+  stringNotEmpty(value);
 
   if (regex instanceof RegExp && !regex.test(value)) {
     throw new Error('value doesn\'t match the specified pattern');

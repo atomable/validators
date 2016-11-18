@@ -1,7 +1,7 @@
+import { stringNotEmpty } from './string-not-empty';
+
 export const stringLengthBetween = (value, min, max) => { // eslint-disable-line
-  if (!value) {
-    throw new Error('string must not be null or empty');
-  }
+  stringNotEmpty(value);
 
   if (min && value.length < min) {
     throw new Error(`string length must be greater or equal to ${min}`);
