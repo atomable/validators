@@ -28,9 +28,8 @@ To run the tests, simply checkout the code and run `npm test`.
 If you find issues with the validators, log them here in our [issues.](https://github.com/atomable/validators/issues)
 
 ## TODO
-- number validators
-- JSON object validators (stringIsJson, hasProperty, etc.)
-- auth validators
+- JSON object validators (hasProperty, etc.)
+- auth validators (may be a new category of validators that are authorizers... to discuss.)
 
 ## Links
 - [atomable.io](http://atomable.io)
